@@ -1,5 +1,5 @@
 #subject-list {
-  /* background-color: rgb(255, 245, 61); */
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -14,10 +14,9 @@
   width: 170px;
   margin-left: auto;
   margin-right: auto;
-  /* border-top-left-radius: 5px;
-  border-top-right-radius: 5px; */
+
   border-radius: 50%;
-  /* overflow: hidden; */
+
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -33,7 +32,7 @@
   height: 15%;
   display: flex;
   justify-content: center;
-  /* text-align: center; */
+
   align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -42,14 +41,14 @@
 }
 .subject-card i {
   font-size: 80px;
-  /* background-color: rgb(183, 129, 129); */
+ 
   color: rgb(255, 0, 132);
 }
 .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: aqua; */
+
   height: 85%;
 }
 @media screen and (max-width: 692px) {
