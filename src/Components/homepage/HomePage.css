@@ -1,0 +1,197 @@
+#HomePage {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#section1 {
+  display: flex;
+  align-items: center;
+
+  height: 450px;
+}
+#Home-Left {
+  width: 55%;
+  height: 350px;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  gap: 20px;
+}
+#Home-Left h1 {
+  margin: 0;
+}
+#Home-Left p {
+  font-size: 16px;
+  text-wrap: pretty;
+}
+#Home-Right {
+  width: 45%;
+  height: 350px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+}
+
+#Home-Right img {
+  height: 270px;
+}
+
+#section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  scroll-margin: 80px;
+}
+.Section2-cards {
+  background-color: white;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+.Section2-cards:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.Section2-cards p {
+  text-align: center;
+}
+
+.Section2-cards img {
+  width: 70%;
+}
+#section-3 {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding: 30px;
+}
+#contact-form {
+  width: 60%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(174, 248, 255);
+  resize: none;
+  outline: none;
+}
+#contact-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact-form-title {
+  text-align: center;
+  margin: 0;
+}
+#Explore-button {
+  background-color: yellow;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: transform 0.3s ease;
+}
+#Explore-button a {
+  text-decoration: none;
+}
+#Explore-button:hover {
+  background-color: rgb(194, 255, 25);
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 720px) {
+  #Home-Right img {
+    height: 230px;
+  }
+  #Home-Left p {
+    font-size: 14px;
+  }
+  #section-3 {
+    width: 80%;
+  }
+  #contact-form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #Home-Right img {
+    height: 230px;
+  }
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  #Home-Left {
+    order: 2;
+    padding: 0;
+    height: 300px;
+    width: 90%;
+    text-align: center;
+  }
+  #Home-Right {
+    order: 1;
+    padding: 0;
+    height: 280px;
+    margin-top: 30px;
+  }
+  #section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .Section2-cards {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact-form {
+    width: auto;
+    gap: 15px;
+  }
+}
+#app-name {
+  color: yellow;
+}
+
+@media screen and (max-width: 350px) {
+  #Home-Right img {
+    height: 200px;
+  }
+  .Section2-cards {
+    width: 180px;
+  }
+}

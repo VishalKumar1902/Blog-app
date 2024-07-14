@@ -1,0 +1,55 @@
+#about-section {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  min-height: 90vh;
+  position: relative;
+}
+.about-sections {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.about-sections h1 {
+  color: white;
+  font-size: 25px;
+  background: linear-gradient(to left, rgb(88, 4, 172), rgb(0, 174, 255));
+  margin-top: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+.about-sections h2 {
+  color: white;
+  padding: 5px;
+  background: linear-gradient(to left, rgb(88, 4, 172), rgb(0, 174, 255));
+  margin-top: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.about-sections p {
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .about-sections h1 {
+    font-size: 20px;
+  }
+  .about-sections h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 840px) {
+  .about-sections {
+    width: 600px;
+    min-height: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

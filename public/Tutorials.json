@@ -1,0 +1,328 @@
+{
+  "subjects": [
+    {
+      "name": "HTML",
+      "icon": "fa-brands fa-html5",
+      "tutorial": [
+        {
+          "topic": "Introduction to HTML",
+          "content": "HTML (Hypertext Markup Language) is the standard markup language used to create web pages. It provides the structure and layout of content on the web. HTML elements are the building blocks of HTML pages, and they are represented by tags. Each tag can contain text, attributes, and other tags."
+        },
+        {
+          "topic": "HTML Document Structure",
+          "content": "An HTML document consists of several essential elements including <!DOCTYPE html>, <html>, <head>, and <body>. The <!DOCTYPE html> declaration defines the document type and version of HTML. The <html> element is the root element of the document. The <head> element contains meta-information about the document such as its title, linked stylesheets, and scripts. The <body> element contains the content of the document that is visible to the user."
+        },
+        {
+          "topic": "Basic HTML Elements",
+          "content": "HTML includes basic elements such as headings (<h1> to <h6>), paragraphs (<p>), links (<a>), images (<img>), lists (<ul>, <ol>, <li>), and more. Headings are used to define titles and subtitles on the page. Paragraphs are used for text content. Links create hyperlinks to other pages or resources. Images embed pictures. Lists can be ordered or unordered and contain list items."
+        },
+        {
+          "topic": "Text Formatting",
+          "content": "Text in HTML can be formatted using tags like <strong> (for bold), <em> (for italic), and <u> (for underline, though not recommended for semantic use). Other formatting tags include <mark> for highlighted text, <small> for smaller text, <del> for deleted text, and <ins> for inserted text."
+        },
+        {
+          "topic": "HTML Attributes",
+          "content": "HTML attributes provide additional information about elements. Common attributes include id (a unique identifier for the element), class (used to group elements for styling), src (source of an image or other resource), href (URL of a link), alt (alternative text for images), and many others. Attributes are always included in the opening tag and usually have a value."
+        },
+        {
+          "topic": "Tables and Forms",
+          "content": "HTML allows the creation of tables (<table>, <tr>, <th>, <td>) for tabular data and forms (<form>, <input>, <textarea>, <button>) for user input. Tables consist of rows (<tr>), header cells (<th>), and data cells (<td>). Forms are used to collect user input and can include various types of inputs like text fields, checkboxes, radio buttons, and submit buttons."
+        },
+        {
+          "topic": "HTML Semantics",
+          "content": "Semantic elements like <header>, <footer>, <section>, <article>, and <nav> introduced in HTML5 improve document structure and accessibility. These elements describe the meaning of the content within them, making the HTML more readable and the web pages more accessible to users and search engines."
+        },
+        {
+          "topic": "Multimedia and Meta Tags",
+          "content": "HTML supports embedding multimedia content with <video> and <audio> elements. Video and audio elements can include controls like play, pause, and volume. Meta tags like <meta name=\"viewport\"> and <meta charset=\"UTF-8\"> define document properties. The viewport meta tag controls the layout on mobile browsers. The charset meta tag specifies the character encoding for the HTML document."
+        },
+        {
+          "topic": "HTML Forms and Validation",
+          "content": "Forms in HTML can be enhanced with validation attributes to ensure that user input meets certain criteria before being submitted. Attributes like required, pattern, minlength, and maxlength can be used to validate form data. Additionally, input types like email, url, and number provide built-in validation."
+        },
+        {
+          "topic": "HTML5 APIs",
+          "content": "HTML5 introduced several new APIs that enhance the capabilities of web pages. These include the Geolocation API, which allows web pages to access the user's location, the Canvas API for drawing graphics, and the Web Storage API for storing data on the client-side. These APIs enable the creation of more dynamic and interactive web applications."
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "fa-brands fa-css3-alt",
+      "tutorial": [
+        {
+          "topic": "Introduction to CSS",
+          "content": "CSS (Cascading Style Sheets) is a stylesheet language used to style the appearance of web pages. It defines how HTML elements should be displayed."
+        },
+        {
+          "topic": "CSS Syntax",
+          "content": "CSS uses selectors to target HTML elements and declarations to specify styling rules. Selectors are followed by property-value pairs enclosed in curly braces."
+        },
+        {
+          "topic": "CSS Selectors",
+          "content": "CSS selectors specify the elements to which a set of CSS rules apply. Common selectors include element selectors, class selectors (e.g., .className), ID selectors (e.g., #elementID), and more."
+        },
+        {
+          "topic": "CSS Box Model",
+          "content": "The CSS box model describes the layout and spacing of elements. It consists of content, padding, border, and margin."
+        },
+        {
+          "topic": "CSS Properties",
+          "content": "CSS properties define the visual appearance of HTML elements. Common properties include color, font-size, width, height, margin, padding, background-color, and many others."
+        },
+        {
+          "topic": "CSS Layouts",
+          "content": "CSS can be used to create different layouts, including float-based layouts, flexbox layouts, and grid layouts. These allow for flexible and responsive web designs."
+        },
+        {
+          "topic": "CSS Positioning",
+          "content": "CSS positioning allows elements to be placed on a web page relative to other elements. Common positioning techniques include static, relative, absolute, and fixed positioning."
+        },
+        {
+          "topic": "Responsive Design with CSS",
+          "content": "Responsive design ensures that web pages look good on all devices and screen sizes. CSS media queries are used to apply different styles based on the viewport width."
+        },
+        {
+          "topic": "CSS Transitions and Animations",
+          "content": "CSS transitions and animations add interactivity and visual effects to web pages. They can be used to animate properties such as color, opacity, position, and more."
+        },
+        {
+          "topic": "CSS Preprocessors",
+          "content": "CSS preprocessors like Sass and Less extend the capabilities of CSS by introducing features such as variables, nesting, mixins, and functions."
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "fa-brands fa-js",
+      "tutorial": [
+        {
+          "topic": "Introduction to JavaScript",
+          "content": "JavaScript is a high-level, interpreted programming language used primarily for creating interactive and dynamic web content. It is widely used for client-side scripting in web development."
+        },
+        {
+          "topic": "Variables and Data Types",
+          "content": "JavaScript variables are used to store data values. Common data types include strings, numbers, booleans, arrays, and objects. Variables are declared using 'var', 'let', or 'const'."
+        },
+        {
+          "topic": "Operators and Expressions",
+          "content": "JavaScript supports various operators such as arithmetic (+, -, *, /), assignment (=), comparison (==, ===, !=, !==), logical (&&, ||, !), and more. Expressions combine values and operators to produce a result."
+        },
+        {
+          "topic": "Control Flow and Conditional Statements",
+          "content": "JavaScript uses 'if', 'else if', and 'else' statements for conditional execution. Switch statements provide an alternative to nested 'if' statements for multiple conditions."
+        },
+        {
+          "topic": "Loops and Iteration",
+          "content": "JavaScript offers 'for', 'while', and 'do-while' loops for repetitive tasks. 'for...in' and 'for...of' loops iterate over properties of objects and elements of iterable objects, respectively."
+        },
+        {
+          "topic": "Functions and Scope",
+          "content": "Functions in JavaScript are blocks of reusable code. They can be defined using function declarations or expressions. JavaScript has function scope and block scope (with 'let' and 'const')."
+        },
+        {
+          "topic": "Arrays and Objects",
+          "content": "Arrays and objects are fundamental data structures in JavaScript. Arrays are ordered collections of values, and objects are collections of key-value pairs. They support various methods for manipulation."
+        },
+        {
+          "topic": "DOM Manipulation",
+          "content": "The Document Object Model (DOM) allows JavaScript to interact with HTML elements. DOM manipulation involves accessing, modifying, adding, or deleting HTML elements dynamically."
+        },
+        {
+          "topic": "Events and Event Handling",
+          "content": "JavaScript can respond to user actions (events) such as clicks, mouse movements, key presses, etc. Event handling involves attaching event listeners to HTML elements to execute code in response to events."
+        },
+        {
+          "topic": "Asynchronous JavaScript (Promises, Async/Await)",
+          "content": "JavaScript supports asynchronous programming using Promises and Async/Await. Promises handle asynchronous operations and provide a cleaner way to work with asynchronous code."
+        },
+        {
+          "topic": "ES6+ Features",
+          "content": "ES6 (ECMAScript 2015) introduced significant enhancements to JavaScript, including arrow functions, template literals, destructuring, classes, modules, and more."
+        },
+        {
+          "topic": "Error Handling",
+          "content": "JavaScript provides 'try...catch' blocks for error handling. Errors can be caught and handled gracefully to prevent script execution from halting unexpectedly."
+        },
+        {
+          "topic": "Modules and Imports/Exports",
+          "content": "ES6 modules allow modularization of JavaScript code. 'import' and 'export' statements enable developers to organize and share code across multiple files."
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "fa-brands fa-python",
+      "tutorial": [
+        {
+          "topic": "Introduction to Python",
+          "content": "Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms including procedural, object-oriented, and functional programming."
+        },
+        {
+          "topic": "Variables and Data Types",
+          "content": "Python uses dynamic typing and supports various data types such as integers, floats, strings, booleans, lists, tuples, dictionaries, and more. Variables are dynamically typed and do not require explicit declaration."
+        },
+        {
+          "topic": "Control Structures",
+          "content": "Python offers control structures like if statements, loops (for and while), and conditional expressions. Indentation is used to define block scope, enhancing code readability."
+        },
+        {
+          "topic": "Functions and Modules",
+          "content": "Functions are defined using the 'def' keyword. Python supports parameterized functions, default arguments, variable-length argument lists, and lambda expressions. Modules encapsulate reusable code and can be imported into other Python scripts."
+        },
+        {
+          "topic": "Data Structures (Lists, Tuples, Sets, Dictionaries)",
+          "content": "Python provides built-in data structures such as lists, tuples, sets, and dictionaries. These data structures offer different functionalities for storing and manipulating collections of data."
+        },
+        {
+          "topic": "Object-Oriented Programming (OOP)",
+          "content": "Python supports OOP concepts including classes, objects, inheritance, encapsulation, and polymorphism. It enables the creation of reusable and modular code through class-based structures."
+        },
+        {
+          "topic": "File Handling",
+          "content": "Python provides built-in functions and modules for reading from and writing to files. File objects can be opened in different modes (read, write, append, etc.) to perform file operations."
+        },
+        {
+          "topic": "Exception Handling",
+          "content": "Python uses try-except blocks to handle exceptions and errors gracefully. Exception handling prevents program crashes and allows for controlled error recovery."
+        },
+        {
+          "topic": "Standard Library and Third-Party Packages",
+          "content": "Python comes with a rich standard library that includes modules for common tasks such as string manipulation, math operations, networking, and more. Additionally, Python has a vast ecosystem of third-party packages available via package managers like pip."
+        },
+        {
+          "topic": "Concurrency and Asynchronous Programming",
+          "content": "Python supports concurrency using threads and asynchronous programming using async/await syntax. Libraries like asyncio enable efficient handling of I/O-bound and CPU-bound tasks."
+        },
+        {
+          "topic": "Debugging and Testing",
+          "content": "Python supports debugging tools like pdb and integrated development environments (IDEs) with built-in debuggers. Testing frameworks like unittest and pytest facilitate automated testing and code quality assurance."
+        },
+        {
+          "topic": "Pythonic Idioms and Best Practices",
+          "content": "Python emphasizes readability and encourages the use of idiomatic patterns and best practices. This includes adhering to the PEP 8 style guide, writing modular and reusable code, and following Pythonic conventions."
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "fa-brands fa-java",
+      "tutorial": [
+        {
+          "topic": "Introduction to Java",
+          "content": "Java is a high-level, object-oriented programming language known for its platform independence and robustness. It is widely used for building enterprise applications, mobile apps, and web services."
+        },
+        {
+          "topic": "Variables and Data Types",
+          "content": "Java supports various primitive data types (int, double, char, boolean) and reference data types (objects, arrays). Variables must be declared with a specific type before use."
+        },
+        {
+          "topic": "Control Flow and Loops",
+          "content": "Java provides control structures such as if statements, switch statements, and loops (for, while, do-while) for decision-making and repetitive tasks. Block scope is defined using curly braces."
+        },
+        {
+          "topic": "Object-Oriented Programming (OOP)",
+          "content": "Java is based on OOP principles including classes, objects, inheritance, encapsulation, and polymorphism. It allows developers to create modular, reusable, and maintainable code."
+        },
+        {
+          "topic": "Exception Handling",
+          "content": "Java uses try-catch blocks to handle exceptions and errors gracefully. Checked exceptions must be declared or caught at compile time, while unchecked exceptions are handled at runtime."
+        },
+        {
+          "topic": "Arrays and Collections",
+          "content": "Java supports arrays for storing fixed-size sequences of elements. Collections (like ArrayList, LinkedList, HashMap) provide dynamic and flexible data structures for managing groups of objects."
+        },
+        {
+          "topic": "Input and Output (I/O)",
+          "content": "Java I/O involves reading from and writing to streams, files, and network resources. Classes like InputStream, OutputStream, Reader, and Writer facilitate I/O operations."
+        },
+        {
+          "topic": "Concurrency and Multithreading",
+          "content": "Java supports multithreading and concurrency with features like threads, synchronized methods, and thread pools. The java.util.concurrent package provides higher-level concurrency utilities."
+        },
+        {
+          "topic": "Generics and Type Safety",
+          "content": "Java generics allow classes, interfaces, and methods to operate on objects of specified types (parameters). Generics improve code reusability and type safety by detecting type mismatches at compile time."
+        },
+        {
+          "topic": "Java Standard Library (Java API)",
+          "content": "Java comes with a vast standard library (Java API) offering built-in classes and packages for common tasks such as networking, database access, GUI development, and more."
+        },
+        {
+          "topic": "Lambda Expressions and Stream API",
+          "content": "Java 8 introduced lambda expressions and the Stream API for functional programming paradigms. Lambda expressions enable concise syntax for implementing single-method interfaces, and Streams allow processing collections with functional-style operations."
+        },
+        {
+          "topic": "Integrated Development Environments (IDEs)",
+          "content": "Java development is often done using IDEs like IntelliJ IDEA, Eclipse, and NetBeans. These tools provide features like code completion, debugging, refactoring, and project management."
+        },
+        {
+          "topic": "Best Practices and Design Patterns",
+          "content": "Java development follows best practices such as code readability, modularity, and adherence to design patterns like MVC (Model-View-Controller), Singleton, Factory, and Observer."
+        }
+      ]
+    },
+    {
+      "name": "SQL",
+      "icon": "fa-solid fa-database",
+      "tutorial": [
+        {
+          "topic": "Introduction to SQL",
+          "content": "SQL (Structured Query Language) is a domain-specific language used for managing relational databases. It is used to perform tasks such as querying data, updating records, and defining database structures."
+        },
+        {
+          "topic": "Basic SQL Commands",
+          "content": "SQL commands include SELECT (for retrieving data), INSERT (for adding records), UPDATE (for modifying records), DELETE (for removing records), and CREATE/ALTER/DROP (for managing database objects)."
+        },
+        {
+          "topic": "Data Definition Language (DDL)",
+          "content": "DDL commands like CREATE, ALTER, and DROP are used to define and manage database schema objects such as tables, indexes, views, and constraints."
+        },
+        {
+          "topic": "Data Manipulation Language (DML)",
+          "content": "DML commands like SELECT, INSERT, UPDATE, and DELETE are used to manipulate data within database tables."
+        },
+        {
+          "topic": "Querying Data with SELECT",
+          "content": "The SELECT statement is used to retrieve data from one or more database tables. It supports filtering, sorting, aggregating, and joining data using WHERE, ORDER BY, GROUP BY, and JOIN clauses."
+        },
+        {
+          "topic": "Filtering and Sorting Data",
+          "content": "SQL supports filtering data using the WHERE clause and sorting data using the ORDER BY clause. Logical operators (AND, OR, NOT) and comparison operators (=, <>, <, >, <=, >=) are used for condition-based filtering."
+        },
+        {
+          "topic": "Aggregate Functions",
+          "content": "SQL provides aggregate functions like SUM, AVG, MIN, MAX, and COUNT to perform calculations on grouped data."
+        },
+        {
+          "topic": "Joins and Relationships",
+          "content": "SQL joins are used to retrieve data from multiple tables based on related columns. Common types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+        },
+        {
+          "topic": "Subqueries and Nested Queries",
+          "content": "Subqueries (nested SELECT statements) are used to perform queries within queries. They can be used for filtering, calculations, and data retrieval based on intermediate results."
+        },
+        {
+          "topic": "Constraints and Indexes",
+          "content": "SQL constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL) enforce data integrity rules. Indexes (B-tree, hash, etc.) improve query performance by facilitating fast data retrieval."
+        },
+        {
+          "topic": "Transactions and ACID Properties",
+          "content": "Transactions ensure data consistency and integrity in SQL databases. ACID properties (Atomicity, Consistency, Isolation, Durability) define the behavior of transactions."
+        },
+        {
+          "topic": "Views and Stored Procedures",
+          "content": "SQL views are virtual tables derived from one or more base tables. Stored procedures are precompiled SQL statements stored in the database and executed on demand."
+        },
+        {
+          "topic": "Normalization and Database Design",
+          "content": "Database normalization is the process of organizing data to reduce redundancy and dependency. It involves defining database tables and relationships based on normalization rules (1NF, 2NF, 3NF, BCNF)."
+        },
+        {
+          "topic": "Advanced SQL Concepts",
+          "content": "Advanced SQL concepts include recursive queries, window functions, triggers, and advanced optimization techniques for improving query performance."
+        }
+      ]
+    }
+  ]
+}

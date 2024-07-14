@@ -1,0 +1,955 @@
+{
+  "subjects": [
+    {
+      "name": "HTML",
+      "icon": "fa-brands fa-html5",
+      "quiz": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language",
+            "Hyperlinks and Text Markup Language",
+            "Hyper Tool Markup Language"
+          ],
+          "answer": "Hyper Text Markup Language"
+        },
+        {
+          "question": "Who is making the Web standards?",
+          "options": [
+            "Mozilla",
+            "Google",
+            "The World Wide Web Consortium",
+            "Microsoft"
+          ],
+          "answer": "The World Wide Web Consortium"
+        },
+        {
+          "question": "Choose the correct HTML element for the largest heading:",
+          "options": ["<heading>", "<h6>", "<h1>", "<head>"],
+          "answer": "<h1>"
+        },
+        {
+          "question": "What is the correct HTML element for inserting a line break?",
+          "options": ["<break>", "<lb>", "<br>", "<linebreak>"],
+          "answer": "<br>"
+        },
+        {
+          "question": "What is the correct HTML for adding a background color?",
+          "options": [
+            "<body bg='yellow'>",
+            "<body style='background-color:yellow;'>",
+            "<background>yellow</background>",
+            "<body background='yellow'>"
+          ],
+          "answer": "<body style='background-color:yellow;'>"
+        },
+        {
+          "question": "Choose the correct HTML element to define important text",
+          "options": ["<b>", "<important>", "<strong>", "<i>"],
+          "answer": "<strong>"
+        },
+        {
+          "question": "Choose the correct HTML element to define emphasized text",
+          "options": ["<italic>", "<em>", "<i>", "<bold>"],
+          "answer": "<em>"
+        },
+        {
+          "question": "What is the correct HTML for creating a hyperlink?",
+          "options": [
+            "<a url='http://example.com'>Example</a>",
+            "<a href='http://example.com'>Example</a>",
+            "<link href='http://example.com'>Example</link>",
+            "<a>http://example.com</a>"
+          ],
+          "answer": "<a href='http://example.com'>Example</a>"
+        },
+        {
+          "question": "Which character is used to indicate an end tag?",
+          "options": ["^", "<", "/", "*"],
+          "answer": "/"
+        },
+        {
+          "question": "How can you open a link in a new tab/browser window?",
+          "options": [
+            "<a href='url' new>",
+            "<a href='url' target='_blank'>",
+            "<a href='url' target='new'>",
+            "<a href='url' new_tab>"
+          ],
+          "answer": "<a href='url' target='_blank'>"
+        },
+        {
+          "question": "Which of these elements are all <table> elements?",
+          "options": [
+            "<table><tr><td>",
+            "<table><head><tfoot>",
+            "<thead><body><tr>",
+            "<table><tr><tt>"
+          ],
+          "answer": "<table><tr><td>"
+        },
+        {
+          "question": "How can you make a numbered list?",
+          "options": ["<list>", "<dl>", "<ul>", "<ol>"],
+          "answer": "<ol>"
+        },
+        {
+          "question": "How can you make a bulleted list?",
+          "options": ["<ul>", "<dl>", "<ol>", "<list>"],
+          "answer": "<ul>"
+        },
+        {
+          "question": "What is the correct HTML for making a text input field?",
+          "options": [
+            "<input type='text'>",
+            "<input type='textfield'>",
+            "<textfield>",
+            "<textinput type='text'>"
+          ],
+          "answer": "<input type='text'>"
+        },
+        {
+          "question": "What is the correct HTML for making a drop-down list?",
+          "options": [
+            "<input type='dropdown'>",
+            "<list>",
+            "<select>",
+            "<dropdown>"
+          ],
+          "answer": "<select>"
+        },
+        {
+          "question": "What is the correct HTML for making a checkbox?",
+          "options": [
+            "<check>",
+            "<input type='check'>",
+            "<checkbox>",
+            "<input type='checkbox'>"
+          ],
+          "answer": "<input type='checkbox'>"
+        },
+        {
+          "question": "What is the correct HTML for making a text area?",
+          "options": [
+            "<textarea>",
+            "<input type='textarea'>",
+            "<textinput>",
+            "<input type='text'>"
+          ],
+          "answer": "<textarea>"
+        },
+        {
+          "question": "What is the correct HTML for inserting an image?",
+          "options": [
+            "<image src='image.jpg' alt='MyImage'>",
+            "<img href='image.jpg' alt='MyImage'>",
+            "<img src='image.jpg' alt='MyImage'>",
+            "<img alt='MyImage'>image.jpg</img>"
+          ],
+          "answer": "<img src='image.jpg' alt='MyImage'>"
+        },
+        {
+          "question": "What is the correct HTML for inserting a background image?",
+          "options": [
+            "<background img='background.jpg'>",
+            "<body style='background-image:url(background.jpg)'>",
+            "<body bg='background.jpg'>",
+            "<bg img='background.jpg'>"
+          ],
+          "answer": "<body style='background-image:url(background.jpg)'>"
+        },
+        {
+          "question": "Which HTML element defines the title of a document?",
+          "options": ["<title>", "<meta>", "<head>", "<doc>"],
+          "answer": "<title>"
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "fa-brands fa-css3-alt",
+      "quiz": [
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which HTML attribute is used to define inline styles?",
+          "options": ["style", "class", "font", "styles"],
+          "answer": "style"
+        },
+        {
+          "question": "Which is the correct CSS syntax?",
+          "options": [
+            "{body;color:black;}",
+            "body:color=black;",
+            "{body:color=black;}",
+            "body {color: black;}"
+          ],
+          "answer": "body {color: black;}"
+        },
+        {
+          "question": "How do you insert a comment in a CSS file?",
+          "options": [
+            "// this is a comment",
+            "' this is a comment",
+            "/* this is a comment */",
+            "// this is a comment //"
+          ],
+          "answer": "/* this is a comment */"
+        },
+        {
+          "question": "Which property is used to change the background color?",
+          "options": ["background-color", "bgcolor", "color", "bg-color"],
+          "answer": "background-color"
+        },
+        {
+          "question": "How do you add a background color for all <h1> elements?",
+          "options": [
+            "all.h1 {background-color:#FFFFFF;}",
+            "h1.setAll {background-color:#FFFFFF;}",
+            "h1 {background-color:#FFFFFF;}",
+            "all.h1.background-color = #FFFFFF;"
+          ],
+          "answer": "h1 {background-color:#FFFFFF;}"
+        },
+        {
+          "question": "Which CSS property controls the text size?",
+          "options": ["font-style", "text-style", "font-size", "text-size"],
+          "answer": "font-size"
+        },
+        {
+          "question": "What is the correct CSS syntax to make all <p> elements bold?",
+          "options": [
+            "p {font-weight:bold;}",
+            "<p style='font-size:bold;'>",
+            "<p style='text-size:bold;'>",
+            "p {text-size:bold;}"
+          ],
+          "answer": "p {font-weight:bold;}"
+        },
+        {
+          "question": "How do you display hyperlinks without an underline?",
+          "options": [
+            "a {text-decoration:none;}",
+            "a {decoration:no-underline;}",
+            "a {underline:none;}",
+            "a {text-decoration:no-underline;}"
+          ],
+          "answer": "a {text-decoration:none;}"
+        },
+        {
+          "question": "Which property is used to change the font of an element?",
+          "options": ["font-family", "font-weight", "font-style", "font"],
+          "answer": "font-family"
+        },
+        {
+          "question": "How do you make the text bold?",
+          "options": [
+            "style:bold;",
+            "font:bold;",
+            "font-weight:bold;",
+            "text:bold;"
+          ],
+          "answer": "font-weight:bold;"
+        },
+        {
+          "question": "How do you center text in CSS?",
+          "options": [
+            "text-align:center;",
+            "text:align-center;",
+            "align:text-center;",
+            "text:center;"
+          ],
+          "answer": "text-align:center;"
+        },
+        {
+          "question": "Which property is used to change the left margin of an element?",
+          "options": ["padding-left", "margin-left", "margin", "padding"],
+          "answer": "margin-left"
+        },
+        {
+          "question": "How do you make each word in a text start with a capital letter?",
+          "options": [
+            "text-transform:capitalize;",
+            "text-style:capitalize;",
+            "text:capitalize;",
+            "transform:capitalize;"
+          ],
+          "answer": "text-transform:capitalize;"
+        },
+        {
+          "question": "How do you select an element with id 'demo'?",
+          "options": [".demo", "demo", "*demo", "#demo"],
+          "answer": "#demo"
+        },
+        {
+          "question": "How do you select elements with class name 'test'?",
+          "options": [".test", "#test", "*test", "test"],
+          "answer": ".test"
+        },
+        {
+          "question": "How do you group selectors?",
+          "options": [
+            "Separate each selector with a comma",
+            "Separate each selector with a plus sign",
+            "Separate each selector with a space",
+            "Separate each selector with a dot"
+          ],
+          "answer": "Separate each selector with a comma"
+        },
+        {
+          "question": "What is the default value of the position property?",
+          "options": ["relative", "fixed", "absolute", "static"],
+          "answer": "static"
+        },
+        {
+          "question": "Which property is used to change the spacing between letters?",
+          "options": [
+            "letter-spacing",
+            "text-spacing",
+            "font-spacing",
+            "spacing"
+          ],
+          "answer": "letter-spacing"
+        },
+        {
+          "question": "Which property is used to change the spacing between lines of text?",
+          "options": [
+            "line-height",
+            "line-spacing",
+            "text-spacing",
+            "text-height"
+          ],
+          "answer": "line-height"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "fa-brands fa-js",
+      "quiz": [
+        {
+          "question": "What is the correct JavaScript syntax to write 'Hello World'?",
+          "options": [
+            "response.write('Hello World')",
+            "System.out.println('Hello World')",
+            "document.write('Hello World')",
+            "print('Hello World')"
+          ],
+          "answer": "document.write('Hello World')"
+        },
+        {
+          "question": "Where is the correct place to insert a JavaScript?",
+          "options": [
+            "The <head> section",
+            "Both the <head> section and the <body> section are correct",
+            "The <body> section",
+            "The <footer> section"
+          ],
+          "answer": "Both the <head> section and the <body> section are correct"
+        },
+        {
+          "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+          "options": [
+            "<script href='xxx.js'>",
+            "<script src='xxx.js'>",
+            "<script name='xxx.js'>",
+            "<script link='xxx.js'>"
+          ],
+          "answer": "<script src='xxx.js'>"
+        },
+        {
+          "question": "How do you write 'Hello World' in an alert box?",
+          "options": [
+            "msgBox('Hello World');",
+            "alertBox('Hello World');",
+            "msg('Hello World');",
+            "alert('Hello World');"
+          ],
+          "answer": "alert('Hello World');"
+        },
+        {
+          "question": "How do you create a function in JavaScript?",
+          "options": [
+            "function myFunction()",
+            "function:myFunction()",
+            "function = myFunction()",
+            "create function myFunction()"
+          ],
+          "answer": "function myFunction()"
+        },
+        {
+          "question": "How do you call a function named 'myFunction'?",
+          "options": [
+            "call myFunction()",
+            "call function myFunction()",
+            "myFunction()",
+            "execute myFunction()"
+          ],
+          "answer": "myFunction()"
+        },
+        {
+          "question": "How to write an IF statement in JavaScript?",
+          "options": [
+            "if i == 5 then",
+            "if i = 5 then",
+            "if i == 5",
+            "if (i == 5)"
+          ],
+          "answer": "if (i == 5)"
+        },
+        {
+          "question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+          "options": [
+            "if i <> 5",
+            "if (i != 5)",
+            "if i =! 5 then",
+            "if (i <> 5)"
+          ],
+          "answer": "if (i != 5)"
+        },
+        {
+          "question": "How does a WHILE loop start?",
+          "options": [
+            "while i = 1 to 10",
+            "while (i <= 10; i++)",
+            "while (i <= 10)",
+            "while (i++ <= 10)"
+          ],
+          "answer": "while (i <= 10)"
+        },
+        {
+          "question": "How does a FOR loop start?",
+          "options": [
+            "for (i <= 5; i++)",
+            "for (i = 0; i <= 5)",
+            "for i = 1 to 5",
+            "for (i = 0; i <= 5; i++)"
+          ],
+          "answer": "for (i = 0; i <= 5; i++)"
+        },
+        {
+          "question": "How can you add a comment in a JavaScript?",
+          "options": [
+            "'This is a comment",
+            "//This is a comment",
+            "<!--This is a comment-->",
+            "// This is a comment //"
+          ],
+          "answer": "//This is a comment"
+        },
+        {
+          "question": "How to insert a comment that has more than one line?",
+          "options": [
+            "<!--This comment has more than one line-->",
+            "//This comment has more than one line//",
+            "/*This comment has more than one line*/",
+            "'This comment has more than one line'"
+          ],
+          "answer": "/*This comment has more than one line*/"
+        },
+        {
+          "question": "What is the correct way to write a JavaScript array?",
+          "options": [
+            "var colors = 'red', 'green', 'blue'",
+            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
+            "var colors = (1:'red', 2:'green', 3:'blue')",
+            "var colors = ['red', 'green', 'blue']"
+          ],
+          "answer": "var colors = ['red', 'green', 'blue']"
+        },
+        {
+          "question": "How do you round the number 7.25, to the nearest integer?",
+          "options": [
+            "Math.rnd(7.25)",
+            "Math.round(7.25)",
+            "rnd(7.25)",
+            "round(7.25)"
+          ],
+          "answer": "Math.round(7.25)"
+        },
+        {
+          "question": "How do you find the number with the highest value of x and y?",
+          "options": [
+            "Math.max(x, y)",
+            "Math.ceil(x, y)",
+            "ceil(x, y)",
+            "top(x, y)"
+          ],
+          "answer": "Math.max(x, y)"
+        },
+        {
+          "question": "What is the correct JavaScript syntax for opening a new window called 'w2'?",
+          "options": [
+            "w2 = window.open('http://www.example.com');",
+            "w2 = window.new('http://www.example.com');",
+            "w2 = new window('http://www.example.com');",
+            "w2 = open.new('http://www.example.com');"
+          ],
+          "answer": "w2 = window.open('http://www.example.com');"
+        },
+        {
+          "question": "How do you find the minimum of x and y using JavaScript?",
+          "options": [
+            "Math.min(x, y)",
+            "Math.small(x, y)",
+            "min(x, y)",
+            "Math.minimum(x, y)"
+          ],
+          "answer": "Math.min(x, y)"
+        },
+        {
+          "question": "Which event occurs when the user clicks on an HTML element?",
+          "options": ["onmouseover", "onmouseclick", "onchange", "onclick"],
+          "answer": "onclick"
+        },
+        {
+          "question": "How do you declare a JavaScript variable?",
+          "options": [
+            "variable carName;",
+            "var carName;",
+            "v carName;",
+            "declare carName;"
+          ],
+          "answer": "var carName;"
+        },
+        {
+          "question": "Which operator is used to assign a value to a variable?",
+          "options": ["=", "*", "-", "+"],
+          "answer": "="
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "fa-brands fa-python",
+      "quiz": [
+        {
+          "question": "What is the correct file extension for Python files?",
+          "options": [".pt", ".pyth", ".pyt", ".py"],
+          "answer": ".py"
+        },
+        {
+          "question": "How do you create a variable with the numeric value 5?",
+          "options": ["x = 5", "x = int(5)", "x == 5", "int x = 5"],
+          "answer": "x = 5"
+        },
+        {
+          "question": "How do you create a variable with the floating number 2.8?",
+          "options": ["x = 2.8", "x = float(2.8)", "float x = 2.8", "x == 2.8"],
+          "answer": "x = 2.8"
+        },
+        {
+          "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+          "options": ["strip()", "trim()", "len()", "ptrim()"],
+          "answer": "strip()"
+        },
+        {
+          "question": "Which of these collections defines a LIST?",
+          "options": [
+            "{'apple', 'banana', 'cherry'}",
+            "{\"apple\", \"banana\", \"cherry\"}",
+            "['apple', 'banana', 'cherry']",
+            "('apple', 'banana', 'cherry')"
+          ],
+          "answer": "['apple', 'banana', 'cherry']"
+        },
+        {
+          "question": "How do you start a function definition in Python?",
+          "options": [
+            "function myfunction():",
+            "def myfunction():",
+            "function:myfunction()",
+            "define myfunction():"
+          ],
+          "answer": "def myfunction():"
+        },
+        {
+          "question": "What is the correct way to create a dictionary?",
+          "options": [
+            "dict = { 'name' = 'John', 'age' = 36 }",
+            "dict = { 'name': 'John', 'age': 36 }",
+            "dict = ( 'name': 'John', 'age': 36 )",
+            "dict = [ 'name' => 'John', 'age' => 36 ]"
+          ],
+          "answer": "dict = { 'name': 'John', 'age': 36 }"
+        },
+        {
+          "question": "Which statement is used to stop a loop?",
+          "options": ["exit", "stop", "break", "return"],
+          "answer": "break"
+        },
+        {
+          "question": "How do you start writing an if statement in Python?",
+          "options": ["if x > y:", "if x > y then:", "if x > y", "if (x > y)"],
+          "answer": "if x > y:"
+        },
+        {
+          "question": "Which operator is used to multiply numbers in Python?",
+          "options": ["#", "*", "x", "X"],
+          "answer": "*"
+        },
+        {
+          "question": "Which of the following is a Python tuple?",
+          "options": [
+            "['apple', 'banana', 'cherry']",
+            "('apple', 'banana', 'cherry')",
+            "{'apple', 'banana', 'cherry'}",
+            "{\"apple\": \"banana\", \"cherry\"}"
+          ],
+          "answer": "('apple', 'banana', 'cherry')"
+        },
+        {
+          "question": "How do you insert COMMENTS in Python code?",
+          "options": [
+            "//This is a comment",
+            "#This is a comment",
+            "/*This is a comment*/",
+            "'This is a comment'"
+          ],
+          "answer": "#This is a comment"
+        },
+        {
+          "question": "Which method can be used to return a string in upper case letters?",
+          "options": ["upperCase()", "toUpperCase()", "upper()", "uppercase()"],
+          "answer": "upper()"
+        },
+        {
+          "question": "Which method can be used to replace parts of a string?",
+          "options": ["replace()", "repl()", "switch()", "swap()"],
+          "answer": "replace()"
+        },
+        {
+          "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+          "options": ["strip()", "len()", "trim()", "ptrim()"],
+          "answer": "strip()"
+        },
+        {
+          "question": "Which keyword is used to create a function in Python?",
+          "options": ["create", "function", "def", "define"],
+          "answer": "def"
+        },
+        {
+          "question": "Which keyword is used to create a class in Python?",
+          "options": ["class", "create", "function", "define"],
+          "answer": "class"
+        },
+        {
+          "question": "Which of the following is not a valid variable name in Python?",
+          "options": ["my_var", "my-var", "_myvar", "MYVAR"],
+          "answer": "my-var"
+        },
+        {
+          "question": "What is the correct syntax to output the type of a variable or object in Python?",
+          "options": [
+            "print(type(x))",
+            "print(typeof(x))",
+            "print(typeOf(x))",
+            "print(typeof x)"
+          ],
+          "answer": "print(type(x))"
+        },
+        {
+          "question": "How do you get the length of a string in Python?",
+          "options": ["len(x)", "length(x)", "x.length", "count(x)"],
+          "answer": "len(x)"
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "fa-brands fa-java",
+      "quiz": [
+        {
+          "question": "What is the correct syntax for the main method in Java?",
+          "options": [
+            "public static void main(String[] args)",
+            "public void main(String[] args)",
+            "static void main(String[] args)",
+            "void main(String[] args)"
+          ],
+          "answer": "public static void main(String[] args)"
+        },
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["Txt", "string", "String", "myString"],
+          "answer": "String"
+        },
+        {
+          "question": "How do you create a variable with the numeric value 5?",
+          "options": ["int x = 5;", "num x = 5", "int x = 5", "x = 5;"],
+          "answer": "int x = 5;"
+        },
+        {
+          "question": "Which method can be used to find the length of a string?",
+          "options": ["getLength()", "len()", "length()", "getSize()"],
+          "answer": "length()"
+        },
+        {
+          "question": "Which of these is a valid declaration of a char?",
+          "options": [
+            "char ch = 'AB';",
+            "char ch = 'A';",
+            "char ch = A;",
+            "char ch = 'A'B;"
+          ],
+          "answer": "char ch = 'A';"
+        },
+        {
+          "question": "Which keyword is used to create a class in Java?",
+          "options": ["class", "Class", "define", "className"],
+          "answer": "class"
+        },
+        {
+          "question": "How do you call a method in Java?",
+          "options": [
+            "methodName();",
+            "call methodName();",
+            "methodName[];",
+            "call methodName[];"
+          ],
+          "answer": "methodName();"
+        },
+        {
+          "question": "Which method can be used to print a message to the console?",
+          "options": [
+            "System.out.println()",
+            "echo()",
+            "console.log()",
+            "print()"
+          ],
+          "answer": "System.out.println()"
+        },
+        {
+          "question": "Which keyword is used to return a value inside a method?",
+          "options": ["return", "get", "take", "reply"],
+          "answer": "return"
+        },
+        {
+          "question": "How do you start writing an if statement in Java?",
+          "options": ["if x > y", "if (x > y)", "if x > y then", "if x then y"],
+          "answer": "if (x > y)"
+        },
+        {
+          "question": "How do you write a single-line comment in Java?",
+          "options": [
+            "// This is a comment",
+            "# This is a comment",
+            "/* This is a comment */",
+            "<!-- This is a comment -->"
+          ],
+          "answer": "// This is a comment"
+        },
+        {
+          "question": "How do you write a multi-line comment in Java?",
+          "options": [
+            "<!-- This comment has more than one line -->",
+            "/* This comment has more than one line */",
+            "// This comment has more than one line //",
+            "'This comment has more than one line'"
+          ],
+          "answer": "/* This comment has more than one line */"
+        },
+        {
+          "question": "Which of the following is not a primitive data type?",
+          "options": ["int", "boolean", "String", "float"],
+          "answer": "String"
+        },
+        {
+          "question": "What is the correct way to create an array in Java?",
+          "options": [
+            "int[] arr = new int[5];",
+            "int arr = new int[5];",
+            "int arr[5];",
+            "int[] arr;"
+          ],
+          "answer": "int[] arr = new int[5];"
+        },
+        {
+          "question": "Which keyword is used to create an object in Java?",
+          "options": ["create", "new", "make", "object"],
+          "answer": "new"
+        },
+        {
+          "question": "Which operator is used to compare two values?",
+          "options": ["==", "=", "<>", "><"],
+          "answer": "=="
+        },
+        {
+          "question": "How can you generate random numbers in Java?",
+          "options": [
+            "Math.random()",
+            "Random.generate()",
+            "random.nextInt()",
+            "Math.random"
+          ],
+          "answer": "Math.random()"
+        },
+        {
+          "question": "What is the default value of a boolean variable?",
+          "options": ["true", "false", "null", "0"],
+          "answer": "false"
+        },
+        {
+          "question": "Which method is called to start a thread execution?",
+          "options": ["init()", "start()", "run()", "resume()"],
+          "answer": "start()"
+        },
+        {
+          "question": "Which of the following is used to handle exceptions in Java?",
+          "options": [
+            "try-catch",
+            "catch-try",
+            "do-catch",
+            "try-catch-finally"
+          ],
+          "answer": "try-catch-finally"
+        }
+      ]
+    },
+    {
+      "name": "SQL",
+      "icon": "fa-solid fa-database",
+      "quiz": [
+        {
+          "question": "What does SQL stand for?",
+          "options": [
+            "Structured Query Language",
+            "Structured Question Language",
+            "Simple Query Language",
+            "Simple Question Language"
+          ],
+          "answer": "Structured Query Language"
+        },
+        {
+          "question": "Which SQL statement is used to fetch data from a database?",
+          "options": ["GET", "EXTRACT", "FETCH", "SELECT"],
+          "answer": "SELECT"
+        },
+        {
+          "question": "Which SQL clause is used to filter the results?",
+          "options": ["WHERE", "FILTER", "SORT", "LIMIT"],
+          "answer": "WHERE"
+        },
+        {
+          "question": "Which SQL statement is used to update data in a database?",
+          "options": ["MODIFY", "CHANGE", "UPDATE", "SET"],
+          "answer": "UPDATE"
+        },
+        {
+          "question": "Which SQL statement is used to delete data from a database?",
+          "options": ["REMOVE", "DELETE", "DROP", "CLEAR"],
+          "answer": "DELETE"
+        },
+        {
+          "question": "Which SQL keyword is used to sort the result-set?",
+          "options": ["SORT BY", "ORDER BY", "ARRANGE BY", "GROUP BY"],
+          "answer": "ORDER BY"
+        },
+        {
+          "question": "Which SQL function is used to count the number of rows in a query?",
+          "options": ["COUNT()", "SUM()", "TOTAL()", "NUMBER()"],
+          "answer": "COUNT()"
+        },
+        {
+          "question": "Which SQL statement is used to insert new data into a database?",
+          "options": ["INSERT INTO", "ADD TO", "INSERT NEW", "ADD NEW"],
+          "answer": "INSERT INTO"
+        },
+        {
+          "question": "Which SQL clause is used to group rows that have the same values?",
+          "options": ["GROUP BY", "ORDER BY", "CLUSTER BY", "SORT BY"],
+          "answer": "GROUP BY"
+        },
+        {
+          "question": "Which SQL statement is used to create a new table in a database?",
+          "options": ["CREATE TABLE", "NEW TABLE", "MAKE TABLE", "ADD TABLE"],
+          "answer": "CREATE TABLE"
+        },
+        {
+          "question": "Which SQL statement is used to remove a table from a database?",
+          "options": [
+            "REMOVE TABLE",
+            "DELETE TABLE",
+            "DROP TABLE",
+            "CLEAR TABLE"
+          ],
+          "answer": "DROP TABLE"
+        },
+        {
+          "question": "Which SQL clause is used to specify the conditions for aggregate functions?",
+          "options": ["WHERE", "HAVING", "FILTER", "GROUP BY"],
+          "answer": "HAVING"
+        },
+        {
+          "question": "Which SQL statement is used to create a new database?",
+          "options": [
+            "CREATE DATABASE",
+            "NEW DATABASE",
+            "MAKE DATABASE",
+            "ADD DATABASE"
+          ],
+          "answer": "CREATE DATABASE"
+        },
+        {
+          "question": "Which SQL keyword is used to retrieve only unique values?",
+          "options": ["UNIQUE", "DISTINCT", "DIFFERENT", "ONLY"],
+          "answer": "DISTINCT"
+        },
+        {
+          "question": "Which SQL statement is used to modify the structure of an existing table?",
+          "options": [
+            "ALTER TABLE",
+            "MODIFY TABLE",
+            "CHANGE TABLE",
+            "UPDATE TABLE"
+          ],
+          "answer": "ALTER TABLE"
+        },
+        {
+          "question": "Which SQL function is used to return the largest value from a set of values?",
+          "options": ["MAX()", "HIGHEST()", "LARGE()", "GREATEST()"],
+          "answer": "MAX()"
+        },
+        {
+          "question": "Which SQL statement is used to add a new column to an existing table?",
+          "options": [
+            "ADD COLUMN",
+            "NEW COLUMN",
+            "INSERT COLUMN",
+            "ALTER TABLE ADD"
+          ],
+          "answer": "ALTER TABLE ADD"
+        },
+        {
+          "question": "Which SQL keyword is used to specify a condition while fetching data?",
+          "options": ["IF", "CONDITION", "WHERE", "FILTER"],
+          "answer": "WHERE"
+        },
+        {
+          "question": "Which SQL statement is used to rename a table?",
+          "options": [
+            "RENAME TABLE",
+            "CHANGE TABLE",
+            "ALTER TABLE RENAME",
+            "MODIFY TABLE"
+          ],
+          "answer": "ALTER TABLE RENAME"
+        },
+        {
+          "question": "Which SQL function is used to return the smallest value from a set of values?",
+          "options": ["MIN()", "SMALLEST()", "LEAST()", "LOWEST()"],
+          "answer": "MIN()"
+        }
+      ]
+    }
+  ]
+}

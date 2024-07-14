@@ -1,0 +1,8 @@
+#tutorial-card-title {
+  background: linear-gradient(to left, rgb(88, 4, 172), rgb(0, 174, 255));
+  color: white;
+}
+
+.tutorial-icons i {
+  color: rgb(127, 0, 159);
+}

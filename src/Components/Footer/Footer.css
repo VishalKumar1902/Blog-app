@@ -1,0 +1,14 @@
+#footer {
+  position: absolute;
+
+  padding: 5px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  width: 100%;
+
+  background-color: rgb(174, 248, 255);
+
+  box-sizing: border-box;
+  margin-top: 25px;
+}

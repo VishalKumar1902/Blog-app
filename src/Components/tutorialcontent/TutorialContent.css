@@ -1,0 +1,60 @@
+#tutorial {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  /* height: 100vh; */
+  height: auto;
+  padding: 30px;
+}
+#back-btn-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#notes {
+  background-color: rgb(223, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#notes h3 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 7px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  text-align: center;
+  background: linear-gradient(to left, rgb(255, 140, 0), rgb(255, 0, 157));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#notes p {
+  padding: 15px;
+  margin: 0;
+}
+#tutorial-title {
+  text-align: center;
+  color: rgb(255, 12, 162);
+  font-size: 1.8rem;
+  padding: 10px;
+  margin: 0;
+}
+@media screen and (max-width: 600px) {
+  #tutorial-title {
+    font-size: 1.5rem;
+  }
+  #notes h3 {
+    font-size: 16px;
+  }
+  #notes p {
+    font-size: 12px;
+  }
+  #tutorial {
+    padding: 20px;
+  }
+}

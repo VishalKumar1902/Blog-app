@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(255, 140, 0), rgb(255, 0, 157));
+  cursor: pointer;
+}
+.button {
+  background: linear-gradient(to right, rgb(255, 0, 179), rgb(255, 128, 0));
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.button:hover {
+  background: linear-gradient(to left, rgb(255, 0, 179), rgb(255, 128, 0));
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 540px) {
+  .button {
+    font-size: 10px;
+  }
+}
